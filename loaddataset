@@ -1,0 +1,15 @@
+import pandas as pd
+df=pd.read_csv("C:/Users/SPTINT-19/Desktop/Dataset/Iris.csv")
+print(df)
+
+print(df.head(5))
+
+print(df.tail(10))
+
+print(df.info())
+
+print(df.dtypes)
+
+print(df.count())
+
+print(df.shape)
