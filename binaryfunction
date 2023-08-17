@@ -1,0 +1,8 @@
+import numpy as np
+a=np.array([[8,9,6],[4,5,6]])
+b=np.array([[7,8,9],[5,1,7]])
+print("addtion of two matrix=",a+b)
+print("subtract of two matrix=",a-b)  
+print("multiply of two matrix=",a*b)     
+print(a**b) 
+print("division of two matrix=",a/b)      
