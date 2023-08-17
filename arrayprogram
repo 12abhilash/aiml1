@@ -1,0 +1,25 @@
+import numpy as np
+a=np.array([[1,2,3],[4,5,6],[7,8,7]],dtype=float)
+print("array list",a)
+
+b=np.array((1,3,2))
+print("array tuple",b)
+
+c=np.zeros((3,4))
+print("array all zeros",c)
+
+d=np.full((3,3),6,dtype=int)
+print("array types n complex",d)
+
+e=np.random.randint((2,2))
+print("random array",e)
+
+f=np.arange(0,30,5)
+print(" in squential array",f)
+
+g=np.linspace(0,5,10)
+print("array with values between 0 and 5",g)
+
+arr=np.array([[1,2,3,4],[5,2,4,2],[1,2,0,1]])
+newarr=arr.reshape(2,2,3)
+print(newarr)
