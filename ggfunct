@@ -1,0 +1,9 @@
+import numpy as np
+arr=np.array([[2,3,4],[9,6,5]])
+print("sum of the array=",arr.sum())
+print("maximum of array=",arr.max())
+print("minimum of the array=",arr.min())
+print("minimum of array in rows=",arr.min(axis=1))
+print("maximum of array in rows=",arr.max(axis=1))
+print("colum in array=",arr.cumsum(axis=1))           
+print("average",np.average(arr))
